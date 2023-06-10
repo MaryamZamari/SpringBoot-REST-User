@@ -32,6 +32,10 @@ public List<User> retrieveAllUsers(){
 }
 
 //Get /users
+/*
+ * HATEAOS : EntityModel
+ * 			 WebMvcLinkBuilder    DO LATER
+ */
 @GetMapping("/users/{id}")
 public User retrieveUser(@PathVariable int id){
 	User user=  service.findOne(id);
