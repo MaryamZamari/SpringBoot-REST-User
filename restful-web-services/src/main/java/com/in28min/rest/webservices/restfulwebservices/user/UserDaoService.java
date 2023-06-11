@@ -16,12 +16,12 @@ public class UserDaoService {
 	
 	private static List<User> users = new ArrayList<>(); 
 
-static {
-	users.add(new User(1, "Ranga", LocalDate.now().minusYears(30)));
-	users.add(new User(2, "heidi",LocalDate.now().minusYears(25)));
-	users.add(new User(3, "Guilda", LocalDate.now().minusYears(7)));
-	users.add(new User(4, "Ray", LocalDate.now().minusYears(40)));
-}
+//static {
+//	users.add(new User(1, "Ranga", LocalDate.now().minusYears(30)));
+//	users.add(new User(2, "heidi",LocalDate.now().minusYears(25)));
+//	users.add(new User(3, "Guilda", LocalDate.now().minusYears(7)));
+//	users.add(new User(4, "Ray", LocalDate.now().minusYears(40)));
+//}
 	/*
 	 * JPA/Hibernate -> Database
 	 * UserStaticDaoService -> Static List
